@@ -13,6 +13,7 @@ public class ArquiteturaSoftwareProblema1 {
 
             if (x.equals("listar")) {
                 if(!nomes.isEmpty()) {
+                    System.out.println("Lista de Clientes");
                     for (int i = 0; i < nomes.size(); i++) {
                         System.out.println(nomes.get(i) + "\n");
                     }
@@ -21,7 +22,7 @@ public class ArquiteturaSoftwareProblema1 {
                 }
                 
             } else {
-                System.out.println("Digite o nome: ");
+                System.out.println("Digite o nome do Cliente: ");
                 nomes.add(sc.nextLine());
             }
         } while (true);
